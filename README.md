@@ -9,8 +9,14 @@ To get started, open your terminal and navigate to where you have been storing y
 
 Once you're inside of your project folder, you are ready to instantiate a virtual environment. To do so, in your terminal, enter the following command:
 
+On Mac:
 ```
 python3 -m venv venv
+```
+
+On Windows:
+```
+py -m venv venv
 ```
 
 Remember: The second "venv" is the name of your virtual environment! Typically, naming it "venv" is good practice, but you could name it anything you want to. Just know to change the second "venv" to whatever you named your environment!
@@ -19,8 +25,14 @@ Run the ls command now. If successful, you should have a file called venv in you
 
 Now that your virtual environment has been built, you'll need to activate it. Do so by entering into your terminal:
 
+Mac:
 ```
 source venv/bin/activate
+```
+
+Windows:
+```
+.\venv\Scripts\activate
 ```
 
 Upon doing so, you should see a change in your terminal, it may indicate that you are now inside of a virtual environment! Now, any dependencies we install will install to our virtual environment instead of our computer's global python shell.
